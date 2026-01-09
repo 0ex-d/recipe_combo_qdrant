@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:7111
+
+### Search vegan chickpea stew under 30 minutes, no dairy
+GET {{baseUrl}}/search?q=vegan%20chickpea%20stew%20under%2030%20minutes%20no%20dairy
+
+### Search healthy low carb salad (limit 5)
+GET {{baseUrl}}/search?q=healthy%20low%20carb%20salad&k=5
